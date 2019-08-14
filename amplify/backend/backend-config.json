@@ -1,0 +1,11 @@
+{
+	"api": {
+		"serverlessapiblog": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY"
+			}
+		}
+	}
+}
